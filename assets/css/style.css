@@ -1,0 +1,55 @@
+.form-error{
+    color: #f00;
+}
+
+.cadre{
+    margin-top: 23px;
+    min-height:150px;
+    border: 1px solid #bbb; 
+    padding: 20px 40px 15px 40px;
+     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-justify{
+    text-align:justify;
+}
+
+.box_rotate {
+     -moz-transform: rotate(7.5deg);  /* FF3.5+ */
+       -o-transform: rotate(7.5deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(7.5deg);  /* Saf3.1+, Chrome */
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+}
+
+/* Code couleur des case du tableau de match/myMatchs_list */
+    .registerPresent{
+        /*background-color:#D7E4BC;*/
+        background-color:#80FF80;
+    }
+
+    .registerAway{
+        /*background-color:#E6B9B8;*/
+        background-color:#F96E69;
+    }
+
+    .registerAny{
+        /*background-color:#FCD5B4;*/
+        background-color:#FFC676;
+    }
+
+
+#myherounit{
+    background-image:url('../img/usf_logo.png');
+    background-repeat:no-repeat;
+    background-position:right 20px top 20px;
+    background-position-x: 95%;
+    background-position-y: 10%;
+}
+
+
+    #homepage-title{
+        padding-right:170px;
+    }
